@@ -1,0 +1,11 @@
+Phần 1: Phân tích lỗi
+1. Bạn Nam đã sai hết 
+2. Lỗi thứ nhất: đổi sai đơn vị
+   Lỗi thứ hai:  có thể nam đã lấy 12,5/100 x 100%
+   Lỗi thứ ba:  Nam chỉ đổi đến 5 MB/s chưa thực sự ra tổng thời gian
+
+phần 2: Hoàn thiện bài
+3. Lỗi thứ nhất: 100 Mbps không phải là 100 MB/s vì 1 Byte = 8 bit nên 100 Mbps = 12,5 MB/s 
+   Lỗi thứ hai: 12,5 MB/s = 100 Mbps nên tốc độ mạng là 100% 
+   Lỗi thứ ba: nếu mạng giảm xuống 40 Mbps thì tổng thời gian tải sẽ là 200s vì 40 Mbps = 5 MB/s mà 1s -> 5MB thì 1GB = 1000 MB => 200s -> 1000 MB
+4. Nam không nên khiếu nại
